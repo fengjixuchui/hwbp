@@ -1,0 +1,12 @@
+hwbp - kernel module to catch and log write memory
+access (write memory watchpoint) by use of hardware
+breakpoints kernel API.
+
+Build:
+> make
+
+Build clean:
+> make clean
+
+Usage:
+> insmod bin/hwbp.ko hw_bp_addr=0xffff88034962bc60
